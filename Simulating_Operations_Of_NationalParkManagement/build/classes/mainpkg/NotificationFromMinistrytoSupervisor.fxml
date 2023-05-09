@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.NotificationFromMinistrytoSupervisorController">
+   <children>
+      <Label layoutX="183.0" layoutY="1.0" text="National Safari Park">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="77.0" fitWidth="104.0" layoutX="6.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@parklogo.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="filecontentLabel" alignment="TOP_LEFT" layoutX="8.0" layoutY="83.0" prefHeight="252.0" prefWidth="579.0" style="-fx-background-color: white;" />
+      <Button layoutX="110.0" layoutY="347.0" mnemonicParsing="false" onAction="#viewButtonOnClick" style="-fx-background-color: white; -fx-border-color: black;" text="View">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="342.0" layoutY="347.0" mnemonicParsing="false" onAction="#gobackbuttonOnClick" style="-fx-background-color: white; -fx-border-color: black;" text="Go Back">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

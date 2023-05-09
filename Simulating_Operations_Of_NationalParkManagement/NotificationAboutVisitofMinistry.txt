@@ -1,0 +1,4 @@
+Date:2022-01-04
+Amount of visitors:10
+Is a guide booked?Yes
+Does the park need to be closed for tourists?Yes

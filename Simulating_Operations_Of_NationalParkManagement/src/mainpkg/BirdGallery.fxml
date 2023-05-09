@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.BirdGalleryController">
+   <children>
+      <Label layoutX="148.0" layoutY="27.0" text="Bird Gallery of National Safari Park">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="71.0" fitWidth="100.0" layoutX="6.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@parklogo.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="195.0" fitWidth="244.0" layoutX="21.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@birdgalleryimg.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="181.0" fitWidth="268.0" layoutX="284.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@birdgalleryimg3.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="129.0" fitWidth="284.0" layoutX="43.0" layoutY="251.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@birdgalleryimg2.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="433.0" layoutY="331.0" mnemonicParsing="false" onAction="#gobackButtonOnClick" style="-fx-background-color: orange; -fx-border-color: black;" text="Go Back">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.TicketPaymentSceneController">
+   <children>
+      <Label layoutX="43.0" layoutY="89.0" text="Enter number of tickets:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="numberofTicketsTextField" layoutX="274.0" layoutY="83.0" onAction="#numberofTicketsTextFieldOnClick" />
+      <Label layoutX="43.0" layoutY="264.0" text="Price of Ticket: 300bdt per person">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="176.0" layoutY="14.0" prefHeight="27.0" prefWidth="249.0" style="-fx-background-color: orange;" text="              National Park">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="65.0" fitWidth="120.0" layoutX="14.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@parklogo.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="235.0" layoutY="305.0" mnemonicParsing="false" onAction="#proceedButtonOnClick" style="-fx-background-color: orange; -fx-border-color: black;" text="Proceed">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <Label fx:id="totalBilllabeltext" layoutX="43.0" layoutY="186.0" prefHeight="28.0" prefWidth="394.0">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Button layoutX="330.0" layoutY="124.0" mnemonicParsing="false" onAction="#viewBillButtonOnClick" style="-fx-background-color: orange; -fx-border-color: black;" text="View bill">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="485.0" layoutY="327.0" mnemonicParsing="false" onAction="#goBackButtonOnClick" style="-fx-background-color: orange; -fx-border-color: black;" text="Go back">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <Label fx:id="availableticketsLabel" layoutX="43.0" layoutY="237.0" prefHeight="27.0" prefWidth="551.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
